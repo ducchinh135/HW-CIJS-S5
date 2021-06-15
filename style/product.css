@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #696871;
+}
+
+/*---------header-------------*/
+header {
+    background-color: #000;
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.menu-nav {
+    max-width: 640px;
+}
+
+.btn-work {
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    color: black;
+    padding: 12px 40px;
+}
+
+.btn-work i {
+    color: #fff;
+}
+
+.banner {
+    color: #fff;
+    max-width: 400px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.banner h1 {
+    font-size: 54px;
+}
+
+.btn-seeAll {
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    padding: 34px !important;
+}
+
+.btn-seeAll i {
+    height: 24px;
+    margin-left: 12px;
+    color: #FFAC12;
+}
+/*----x----header------x------*/
+
+/*-----------banner-------------*/
+.block-banner {
+    padding: 50px 0px;
+}
+
+.banner-contact {
+    background: #ffffff;
+    box-shadow: 0px 32px 34px rgb(0 0 0 / 13%);
+    border-radius: 25px;
+    width: 360px;
+    height: 520px;
+}
+
+.banner-member {
+    background: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px 20px;
+    width: 296px;
+    height: 70px;
+    align-items: center;
+}
+
+.member-img {
+    margin-left: 10px;
+}
+
+.member-info {
+    margin-left: 10px;
+}
+
+.member-info .name {
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+}
+
+.member-info .status {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.326667px;
+    color: #ffac12;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 12px 20px;
+    width: 296px;
+    height: 60px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.376923px;
+    color: #000000;
+  }
+
+  .btn-block {
+    width: 300px;
+    height: 70px;
+    background: #000000;
+    border-radius: 0px 18px 0px 0px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.427179px;
+    margin: 10px 20px;
+}
+
+.btn-block i {
+    color: #FFAC12;
+    margin-left: 12px;
+}
+
+.listImg {
+    margin-top: 20px;
+}
+
+.detail-content {
+    margin-top: 50px;
+    background: #FFFFFF;
+box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+border-radius: 25px;
+}
+
+.detail-list {
+    border-top: 1px solid #E4E4E4;
+}
+
+.one-five {
+    width: 20%;
+    float: left;
+    padding: 20px 15px;
+    border-right: 1px solid #E4E4E4;
+}
+/*----x-------banner-----x------*/
+
+/*----------feature-------------*/
+.block-feature {
+    padding-top: 50px; 
+}
+
+.feature-content {
+    background: #FFFFFF;
+box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+border-radius: 25px;
+padding: 40px;
+border-bottom: 1px solid #E4E4E4;
+}
+
+.feature-list {
+    padding-top: 40px ;
+}
+
+.one-third {
+    width: 33%;
+    float: left;
+}
+/*-----------feature-------------*/
+
+.block-listing {
+    padding: 50px 0px;
+}
+
+.property-content {
+    height: 392px;
+    max-width: 336px;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+    padding: 0 !important;
+}
+
+.property-name {
+    height: 60px;
+    padding-left: 20px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+letter-spacing: -0.603077px;
+color: #000000;
+
+}
+
+.property-unit {
+    border-top: 1px solid #E4E4E4;
+    
+}
+
+.property-unit div i {
+    margin-right: 4px;
+}
+
+.line {
+    width: 168px;
+    height: 4px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+}
+
+/*--------------Footer--------------- */
+footer {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.foot-link {
+    color: #fff;
+}
+
+.social-media {
+    padding-top: 50px !important;
+}
+
+.social-text {
+    font-size: 42px;
+line-height: 55px;
+color: #fff;
+}
+
+.social-text span:nth-child(2) {
+    color: #FFAC12;
+}
+/*-------x------Footer-------x------- */

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #696871;
+}
+
+/*---------header-------------*/
+
+header{
+    background: url('../img/landing-page/backgroud.png') center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+.header-nav {
+    background: linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%);
+}
+
+.nav-header {
+    background-color: transparent !important;
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.menu-nav {
+    max-width: 640px;
+}
+
+.btn-work {
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    color: black;
+    padding: 20px 40px;
+}
+
+.btn-work i {
+    color: #fff;
+}
+
+.banner {
+    color: #fff;
+    max-width: 400px;
+    margin-top: 80px;
+}
+
+.banner h1 {
+    font-size: 54px;
+}
+
+.btn-seeAll {
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    padding: 34px !important;
+}
+
+.btn-seeAll i {
+    height: 24px;
+    margin-left: 12px;
+    color: #FFAC12;
+}
+
+/*-----x------header------x------*/
+
+/*----------------Main---------------- */
+main {
+    background-color: #F2F2F2;
+}
+
+.block {
+    padding: 50px 0px;
+}
+
+.line {
+    width: 168px;
+    height: 4px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+}
+
+.banner-title {
+    font-size: 50px;
+line-height: 65px;
+letter-spacing: -1.25641px;
+
+color: #000000;
+}
+
+.btn-block {
+    width: 300px;
+    height: 70px;
+    background: #000000;
+    border-radius: 0px 18px 0px 0px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.427179px;
+}
+
+.btn-block i {
+    color: #FFAC12;
+    margin-left: 12px;
+}
+
+/*----------------Banner---------------- */
+.block-banner {
+    width: 99%;
+}
+/*--------x-------Banner-------x-------- */
+
+/*----------------Block find---------------- */
+.block-find {
+    background: #F5F5F5;
+    height: 1200px;
+}
+
+.find-content {
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+}
+
+.find-cate {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border-right: 1px solid #E4E4E4 ;
+}
+
+.property-content {
+    height: 392px;
+    max-width: 336px;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+    padding: 0 !important;
+}
+
+.property-name {
+    height: 60px;
+    padding-left: 20px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+letter-spacing: -0.603077px;
+color: #000000;
+
+}
+
+.property-unit {
+    border-top: 1px solid #E4E4E4;
+    
+}
+
+.property-unit div i {
+    margin-right: 4px;
+}
+
+.one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+    border-right: 1px solid #E4E4E4;
+}
+/*--------x-------Block finf------x-------- */
+
+.banner-foot-left {
+    padding-left: 120px;
+}
+
+/*---------------about--------------- */
+.block-about {
+    height: 674px;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+}
+
+.about-content {
+    width: 500px;
+    height: 674px;
+}
+
+.about-title {
+    font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 65px;
+text-align: center;
+letter-spacing: -1.25641px;
+color: #fff;
+}
+
+.about-text {
+    font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #fff;
+}
+
+.btn-about {
+    background-color: #FFAC12;
+    color: #000000;
+}
+
+.btn-about i {
+    color: #fff;
+}
+
+.about-content div, .about-content button {
+    margin-top: 32px;
+}
+/*-------x--------about--------x------- */
+
+/*---------------contact--------------- */
+.block-contact {
+    padding: 100px 0px;
+}
+
+.contact-author {
+    margin-top: 48px;
+}
+
+.contact-author p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.author-content {
+    height: 140px;
+}
+
+.author-content:nth-child(2) {
+    background-color: #000000;
+}
+/*------x-------contact-------x------- */
+
+/*--------------Footer--------------- */
+footer {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.foot-link {
+    color: #fff;
+}
+
+.social-media {
+    padding-top: 50px !important;
+}
+
+.social-text {
+    font-size: 42px;
+line-height: 55px;
+color: #fff;
+}
+
+.social-text span:nth-child(2) {
+    color: #FFAC12;
+}
+/*-------x------Footer-------x------- */
+
+/*-------x--------Main--------x------- */
